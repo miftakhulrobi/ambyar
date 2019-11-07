@@ -114,7 +114,7 @@ class Blogs extends CI_Controller
         $this->load->view('frontend/layout/header');
         $this->load->view('frontend/blogs/singleblog', $data);
         $this->load->view('frontend/layout/footer');
-        $this->load->view('frontend/blogs/script');
+        $this->load->view('frontend/blogs/scriptlike');
         $this->load->view('frontend/layout/close');
     }
 
